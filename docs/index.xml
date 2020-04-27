@@ -17,8 +17,15 @@
       
       <guid>https://katas.garrardkitchen.com/posts/react-express-socketio/</guid>
       <description>react-function-components Requirements:
- ?  Tech:
- nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.npmjs.com/package/socket.io-client)  </description>
+  Create a React application and run it to get default page
+  Remove all extant files
+  Create a new App.js starter file
+  Add socket-io to server.js
+  Add socket-io-client to App component
+  Send &amp;lsquo;Welcome!&amp;rsquo; message on client connect
+  Render &amp;lsquo;Welcome!&amp;rsquo; message from the server
+  Tech:
+ nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.</description>
     </item>
     
     <item>

@@ -5,11 +5,25 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="react-function-components Requirements:
- ?  Tech:
- nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.npmjs.com/package/socket.io-client)  "><meta property="og:title" content="React Express Socketio" />
+  Create a React application and run it to get default page
+  Remove all extant files
+  Create a new App.js starter file
+  Add socket-io to server.js
+  Add socket-io-client to App component
+  Send &lsquo;Welcome!&rsquo; message on client connect
+  Render &lsquo;Welcome!&rsquo; message from the server
+  Tech:
+ nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www."><meta property="og:title" content="React Express Socketio" />
 <meta property="og:description" content="react-function-components Requirements:
- ?  Tech:
- nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.npmjs.com/package/socket.io-client)  " />
+  Create a React application and run it to get default page
+  Remove all extant files
+  Create a new App.js starter file
+  Add socket-io to server.js
+  Add socket-io-client to App component
+  Send &lsquo;Welcome!&rsquo; message on client connect
+  Render &lsquo;Welcome!&rsquo; message from the server
+  Tech:
+ nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://katas.garrardkitchen.com/posts/react-express-socketio/" />
 <meta property="article:published_time" content="2020-04-27T15:08:17+01:00" />
@@ -17,7 +31,7 @@
 <title>React Express Socketio | Katas</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.6df681b0bb21155cba49f6078e3559216772d8e03e780d240c73ea21817ed5e5.css" integrity="sha256-bfaBsLshFVy6SfYHjjVZIWdy2OA&#43;eA0kDHPqIYF&#43;1eU=">
-<script defer src="/en.search.min.eba83d9a69adc977fc6c2be70a46b450f476d4e11bbca58f11e07ba08be76509.js" integrity="sha256-66g9mmmtyXf8bCvnCka0UPR21OEbvKWPEeB7oIvnZQk="></script>
+<script defer src="/en.search.min.497ab2d13ebe1e040fb1363160fd5d0c4fb57ed5da72bc28e2ebd807f1d75932.js" integrity="sha256-SXqy0T6&#43;HgQPsTYxYP1dDE&#43;1ftXacrwo4uvYB/HXWTI="></script>
 
 <script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ="></script>
 
@@ -232,7 +246,11 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/tags/react-sockets-nodejs-expressjs/">react, sockets, nodejs, expressjs</a>
+      <a href="/tags/expressjs/">expressjs</a>, 
+      <a href="/tags/nodejs/">nodejs</a>, 
+      <a href="/tags/react/">react</a>, 
+      <a href="/tags/socket.io/">socket.io</a>, 
+      <a href="/tags/websockets/">websockets</a>
   </div>
   
 
@@ -240,7 +258,27 @@ https://github.com/alex-shpak/hugo-book
   <p><h1 id="react-function-components">react-function-components</h1>
 <p><strong>Requirements</strong>:</p>
 <ol>
-<li>?</li>
+<li>
+<p>Create a React application and run it to get default page</p>
+</li>
+<li>
+<p>Remove all extant files</p>
+</li>
+<li>
+<p>Create a new <code>App.js</code> starter file</p>
+</li>
+<li>
+<p>Add socket-io to <code>server.js</code></p>
+</li>
+<li>
+<p>Add socket-io-client to <code>App</code> component</p>
+</li>
+<li>
+<p>Send &lsquo;Welcome!&rsquo; message on client connect</p>
+</li>
+<li>
+<p>Render &lsquo;Welcome!&rsquo; message from the server</p>
+</li>
 </ol>
 <p><strong>Tech</strong>:</p>
 <ul>
@@ -251,7 +289,55 @@ https://github.com/alex-shpak/hugo-book
 <li>socket.io (socker-io)</li>
 <li>socket.io-client (<a href="https://www.npmjs.com/package/socket.io-client">https://www.npmjs.com/package/socket.io-client</a>)</li>
 </ul>
-</p>
+<p><strong>References</strong></p>
+<ul>
+<li>
+  <a href="https://www.valentinog.com/blog/socket-react/">socket-react</a></li>
+</ul>
+<p><strong>Hint 1</strong></p>
+<p>Add to App.js:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">React</span>, { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;react&#34;</span>
+<span style="color:#66d9ef">import</span> <span style="color:#a6e22e">socketIOClient</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;socket.io-client&#34;</span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ENDPOINT</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://127.0.0.1:4001&#34;</span>
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">App</span>() {
+  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">message</span>, <span style="color:#a6e22e">setMessage</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#e6db74">&#34;&#34;</span>)
+
+  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">socket</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">socketIOClient</span>(<span style="color:#a6e22e">ENDPOINT</span>)
+    <span style="color:#a6e22e">socket</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;welcome-evt&#34;</span>, <span style="color:#a6e22e">data</span> =&gt; {
+      <span style="color:#a6e22e">setMessage</span>(<span style="color:#a6e22e">data</span>);
+    })
+  }, [])
+
+  <span style="color:#66d9ef">return</span> (
+    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span>
+      {<span style="color:#a6e22e">message</span>}
+    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/p&gt;</span>
+  );
+}
+
+<span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">App</span>
+</code></pre></div><p><strong>Hint 2</strong></p>
+<p>Add to server.js:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">express</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;express&#34;</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">http</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;http&#34;</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">socketIo</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;socket.io&#34;</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">port</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">PORT</span> <span style="color:#f92672">||</span> <span style="color:#ae81ff">4001</span>
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">index</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;./routes/index&#34;</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">app</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">express</span>()
+<span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">use</span>(<span style="color:#a6e22e">index</span>)
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">createServer</span>(<span style="color:#a6e22e">app</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">io</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">socketIo</span>(<span style="color:#a6e22e">server</span>)
+
+<span style="color:#a6e22e">io</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;connection&#34;</span>, (<span style="color:#a6e22e">socket</span>) =&gt; {  
+  <span style="color:#a6e22e">socket</span>.<span style="color:#a6e22e">emit</span>(<span style="color:#e6db74">&#34;welcome-evt&#34;</span>, <span style="color:#e6db74">&#34;Welcome!&#34;</span>)
+  <span style="color:#a6e22e">socket</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#34;disconnect&#34;</span>, () =&gt; {
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Client disconnected&#34;</span>)    
+  })
+})
+</code></pre></div></p>
 </article>
  
       

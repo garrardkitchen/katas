@@ -3,20 +3,19 @@ title: Introduction
 type: docs
 ---
 
-# List of katas, plus ideas for katas.
+# List of katas, ideas and suggestions for katas.
 
 {{< columns >}}
 
-**Katas**:
+## Katas
+
 - [idempotent-consumer](posts/idempotent-consumer) - a consumer that filters out duplicate messages
 - [react-function-components](posts/react-function-components) - a mini react app created using function components
-
+- [react-express-socketio](posts/react-express-socketio) - a mini react app created using function components that communicates with nodejs express server using websockets (socker.io)
 
 <--->
 
-**Ideas**:
-
-- [react-express-socketio](posts/react-express-socketio) - a mini react app created using function components that communicates with nodejs express server using websockets (socker.io)
+## Ideas
 
 - []() Create a Twilio Serverless solution to send Sms and process response. Create a question that prompts for an answer.  If the answer is correct, send a `congratulatory` response. If incorrect, send a `commiserations` response.  Include secure HTTP endpoint as advanced 
 

@@ -12,29 +12,92 @@
     
     
     <item>
-      <title>react, sockets, nodejs, expressjs</title>
-      <link>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</link>
+      <title>expressjs</title>
+      <link>https://katas.garrardkitchen.com/tags/expressjs/</link>
       <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
       
-      <guid>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</guid>
+      <guid>https://katas.garrardkitchen.com/tags/expressjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>react, react hooks, function component</title>
-      <link>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</link>
+      <title>nodejs</title>
+      <link>https://katas.garrardkitchen.com/tags/nodejs/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://katas.garrardkitchen.com/tags/react/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socket.io</title>
+      <link>https://katas.garrardkitchen.com/tags/socket.io/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/socket.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>websockets</title>
+      <link>https://katas.garrardkitchen.com/tags/websockets/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/websockets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>function component</title>
+      <link>https://katas.garrardkitchen.com/tags/function-component/</link>
       <pubDate>Mon, 27 Apr 2020 15:08:04 +0100</pubDate>
       
-      <guid>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</guid>
+      <guid>https://katas.garrardkitchen.com/tags/function-component/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>design patterns, cloud, EDA</title>
-      <link>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</link>
+      <title>react hooks</title>
+      <link>https://katas.garrardkitchen.com/tags/react-hooks/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:04 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/react-hooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://katas.garrardkitchen.com/tags/cloud/</link>
       <pubDate>Mon, 27 Apr 2020 15:07:50 +0100</pubDate>
       
-      <guid>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</guid>
+      <guid>https://katas.garrardkitchen.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design patterns</title>
+      <link>https://katas.garrardkitchen.com/tags/design-patterns/</link>
+      <pubDate>Mon, 27 Apr 2020 15:07:50 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eda</title>
+      <link>https://katas.garrardkitchen.com/tags/eda/</link>
+      <pubDate>Mon, 27 Apr 2020 15:07:50 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/eda/</guid>
       <description></description>
     </item>
     

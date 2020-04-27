@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://katas.garrardkitchen.com/tags/expressjs/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/nodejs/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://katas.garrardkitchen.com/posts/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/react/</loc>
     <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
@@ -13,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</loc>
+    <loc>https://katas.garrardkitchen.com/tags/socket.io/</loc>
     <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
@@ -23,17 +38,37 @@
   </url>
   
   <url>
+    <loc>https://katas.garrardkitchen.com/tags/websockets/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/function-component/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://katas.garrardkitchen.com/posts/react-function-components/</loc>
     <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</loc>
+    <loc>https://katas.garrardkitchen.com/tags/react-hooks/</loc>
     <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</loc>
+    <loc>https://katas.garrardkitchen.com/tags/cloud/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/design-patterns/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/eda/</loc>
     <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
