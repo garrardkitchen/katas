@@ -12,28 +12,31 @@
     
     
     <item>
-      <title>Net Core Web App</title>
+      <title>.NET Core Web App</title>
       <link>https://katas.garrardkitchen.com/posts/net-core-web-app/</link>
       <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/net-core-web-app/</guid>
-      <description>.NET Core Web Application Create a .NET Core C# web application that renders a list of random names api. Load Names from an API, where the URI for API is set in an appSettings file. Use the Configuration IOptions pattern and the HttpClientFactory factory class. Create a test using Moq and xUnit, and return Stub from HttpMessageHandler. Use a different API URI per environment.
+      <description>Create a .NET Core C# web application that renders a list of random names api. Load Names from an API, where the URI for API is set in an appSettings file. Use the Configuration IOptions pattern and the HttpClientFactory factory class. Create a test using Moq and xUnit, and return Stub from HttpMessageHandler. Use a different API URI per environment.
 Requirements:
-   Tech:
- .</description>
+  Create an .NET Core web app using the dotnet CLI and add to a src folder</description>
     </item>
     
     <item>
-      <title>Net Core Web App Docker</title>
+      <title>.NET Core and Kubernetes</title>
       <link>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</link>
       <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</guid>
-      <description>.NET Core Web Application hosted in Docker container running in Kubernetes Create a Redis Caching layer for above .NET Core random name web application. Have a TTL of 10 seconds. Host in Docker container. Create an Kubernetes deployment manifest. Refs: deployment example
+      <description>Create a Redis Caching layer for above net-core-web-app.NET Core random name web application. Have a TTL of 10 seconds. Host in Docker container. Create an Kubernetes deployment manifest. Refs: deployment example
 Requirements:
-   Tech:
- .NET Core 3.1 Redis Docker Kubernetes Kubectl MiniKube  References
- random name generator API  </description>
+  Complete net-core-web-app
+  Install Kubectl
+  Install Minikube to work with hyper-v driver
+  Set the docker environment to point the MiniKube local Kubernetes cluster
+  TBC
+  Tech:
+ .NET Core 3.</description>
     </item>
     
     <item>
@@ -42,7 +45,7 @@ Requirements:
       <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/react-express-socketio/</guid>
-      <description>react-function-components Requirements:
+      <description>Requirements:
   Create a React application and run it to get default page
   Remove all extant files
   Create a new App.js starter file
@@ -51,7 +54,7 @@ Requirements:
   Send &amp;lsquo;Welcome!&amp;rsquo; message on client connect
   Render &amp;lsquo;Welcome!&amp;rsquo; message from the server
   Tech:
- nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.</description>
+ nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.npmjs.com/package/socket.io-client)  References</description>
     </item>
     
     <item>
@@ -60,7 +63,7 @@ Requirements:
       <pubDate>Mon, 27 Apr 2020 15:08:04 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/react-function-components/</guid>
-      <description>react-function-components Requirements:
+      <description>Requirements:
   Create a React application and run it to get default page
   Remove all extant files
   Create a new App.js starter file
@@ -75,7 +78,7 @@ Requirements:
       <pubDate>Mon, 27 Apr 2020 15:07:50 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/idempotent-consumer/</guid>
-      <description>idempotent consumer Requirements:
+      <description>Requirements:
   Create a consumer that accepts different message reference types that each contains one of these properties:
  A message that contains an Id A message that contains a TTL A message that contains a before and after state    The consumer must filter out any duplicate message that contains an Id that has already been processed
   The consumer must filter out any messages that have expired (TTL)</description>

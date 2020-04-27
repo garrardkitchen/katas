@@ -3,7 +3,6 @@ title: "React Express Socketio"
 date: 2020-04-27T15:08:17+01:00
 tags: [react, socket.io, nodejs, expressjs, websockets]
 ---
-# react-function-components
 
 **Requirements**:
 

@@ -3,7 +3,6 @@ title: "React Function Components"
 date: 2020-04-27T15:08:04+01:00
 tags: [react, react hooks, function component, nodejs]
 ---
-# react-function-components
 
 **Requirements**:
 

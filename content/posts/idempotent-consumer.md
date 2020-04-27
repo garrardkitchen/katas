@@ -3,7 +3,6 @@ title: "Idempotent Consumer"
 date: 2020-04-27T15:07:50+01:00
 tags: [design patterns, cloud, eda]
 ---
-# idempotent consumer
 
 **Requirements**:
 

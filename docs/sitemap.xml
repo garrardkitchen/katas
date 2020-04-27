@@ -4,72 +4,72 @@
   
   <url>
     <loc>https://katas.garrardkitchen.com/tags/.net-core/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/moq/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/posts/net-core-web-app/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/moq/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/posts/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/tags/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/tags/xunit/</loc>
-    <lastmod>2020-04-27T16:30:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/deployment/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/docker/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/kubectl/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/kubernetes/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/minikube/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/deployment/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/docker/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/kubectl/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/kubernetes/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/minikube/</loc>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/tags/pod/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/tags/redis/</loc>
-    <lastmod>2020-04-27T16:30:11+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
   <url>
@@ -143,7 +143,7 @@
   
   <url>
     <loc>https://katas.garrardkitchen.com/</loc>
-    <lastmod>2020-04-27T16:13:20+01:00</lastmod>
+    <lastmod>2020-04-27T16:39:19+01:00</lastmod>
   </url>
   
 </urlset>

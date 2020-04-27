@@ -17,7 +17,7 @@
       <pubDate>Mon, 27 Apr 2020 15:08:04 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/react-function-components/</guid>
-      <description>react-function-components Requirements:
+      <description>Requirements:
   Create a React application and run it to get default page
   Remove all extant files
   Create a new App.js starter file

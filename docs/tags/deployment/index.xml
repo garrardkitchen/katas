@@ -12,16 +12,20 @@
     
     
     <item>
-      <title>Net Core Web App Docker</title>
+      <title>.NET Core and Kubernetes</title>
       <link>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</link>
       <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
       
       <guid>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</guid>
-      <description>.NET Core Web Application hosted in Docker container running in Kubernetes Create a Redis Caching layer for above .NET Core random name web application. Have a TTL of 10 seconds. Host in Docker container. Create an Kubernetes deployment manifest. Refs: deployment example
+      <description>Create a Redis Caching layer for above net-core-web-app.NET Core random name web application. Have a TTL of 10 seconds. Host in Docker container. Create an Kubernetes deployment manifest. Refs: deployment example
 Requirements:
-   Tech:
- .NET Core 3.1 Redis Docker Kubernetes Kubectl MiniKube  References
- random name generator API  </description>
+  Complete net-core-web-app
+  Install Kubectl
+  Install Minikube to work with hyper-v driver
+  Set the docker environment to point the MiniKube local Kubernetes cluster
+  TBC
+  Tech:
+ .NET Core 3.</description>
     </item>
     
   </channel>
