@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Katas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 15:08:17 +0100</lastBuildDate>
     
 	<atom:link href="https://katas.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>react, sockets, nodejs, expressjs</title>
+      <link>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react, react hooks, function component</title>
+      <link>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:04 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design patterns, cloud, EDA</title>
+      <link>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</link>
+      <pubDate>Mon, 27 Apr 2020 15:07:50 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

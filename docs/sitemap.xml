@@ -3,15 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://katas.garrardkitchen.com/posts/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/posts/react-express-socketio/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/posts/react-function-components/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/react-react-hooks-function-component/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/tags/design-patterns-cloud-EDA/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://katas.garrardkitchen.com/posts/idempotent-consumer/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://katas.garrardkitchen.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://katas.garrardkitchen.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://katas.garrardkitchen.com/tags/</loc>
+    <lastmod>2020-04-27T15:31:24+01:00</lastmod>
   </url>
   
 </urlset>
