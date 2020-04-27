@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>moq on Katas</title>
+    <link>https://katas.garrardkitchen.com/tags/moq/</link>
+    <description>Recent content in moq on Katas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 16:30:23 +0100</lastBuildDate>
+    
+	<atom:link href="https://katas.garrardkitchen.com/tags/moq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Net Core Web App</title>
+      <link>https://katas.garrardkitchen.com/posts/net-core-web-app/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/posts/net-core-web-app/</guid>
+      <description>.NET Core Web Application Create a .NET Core C# web application that renders a list of random names api. Load Names from an API, where the URI for API is set in an appSettings file. Use the Configuration IOptions pattern and the HttpClientFactory factory class. Create a test using Moq and xUnit, and return Stub from HttpMessageHandler. Use a different API URI per environment.
+Requirements:
+   Tech:
+ .</description>
+    </item>
+    
+  </channel>
+</rss>

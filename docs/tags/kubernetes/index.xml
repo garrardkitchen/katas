@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubernetes on Katas</title>
+    <link>https://katas.garrardkitchen.com/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on Katas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 16:30:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://katas.garrardkitchen.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Net Core Web App Docker</title>
+      <link>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/posts/net-core-web-app-docker/</guid>
+      <description>.NET Core Web Application hosted in Docker container running in Kubernetes Create a Redis Caching layer for above .NET Core random name web application. Have a TTL of 10 seconds. Host in Docker container. Create an Kubernetes deployment manifest. Refs: deployment example
+Requirements:
+   Tech:
+ .NET Core 3.1 Redis Docker Kubernetes Kubectl MiniKube  References
+ random name generator API  </description>
+    </item>
+    
+  </channel>
+</rss>

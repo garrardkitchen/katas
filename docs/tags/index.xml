@@ -6,10 +6,100 @@
     <description>Recent content in Tags on Katas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2020 15:08:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 16:30:23 +0100</lastBuildDate>
     
 	<atom:link href="https://katas.garrardkitchen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.net core</title>
+      <link>https://katas.garrardkitchen.com/tags/.net-core/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>moq</title>
+      <link>https://katas.garrardkitchen.com/tags/moq/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/moq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xunit</title>
+      <link>https://katas.garrardkitchen.com/tags/xunit/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/xunit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>https://katas.garrardkitchen.com/tags/deployment/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://katas.garrardkitchen.com/tags/docker/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubectl</title>
+      <link>https://katas.garrardkitchen.com/tags/kubectl/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/kubectl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://katas.garrardkitchen.com/tags/kubernetes/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minikube</title>
+      <link>https://katas.garrardkitchen.com/tags/minikube/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/minikube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pod</title>
+      <link>https://katas.garrardkitchen.com/tags/pod/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>https://katas.garrardkitchen.com/tags/redis/</link>
+      <pubDate>Mon, 27 Apr 2020 16:30:11 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/tags/redis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>expressjs</title>

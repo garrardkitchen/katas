@@ -29,6 +29,9 @@ type: docs
 
 - []() Create a Kubernetes deployment, with front-end, microservice, caching and NoSql engine.
 
+- [net-core-web-app](posts/net-core-web-app) Create a .NET Core C# web application that renders a list of random names [api](http://names.drycodes.com/10?combine=4). Load Names from an API, where the URI for API is set in an appSettings file.  Use the Configuration IOptions pattern and the HttpClientFactory factory class. Create a test using Moq and xUnit, and return Stub from HttpMessageHandler.  Use a different API URI per environment.  
+
+- [net-core-web-app-docker](posts/net-core-web-app-docker) Create a Redis Caching layer for [net-core-web-app](posts/net-core-web-app).NET Core random name web application.  Have a TTL of 10 seconds.  Host in Docker container.  Create an Kubernetes deployment manifest. Refs: [deployment example](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
 {{< /columns >}}
 
