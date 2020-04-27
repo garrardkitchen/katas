@@ -1,14 +1,22 @@
-# Katas
+---
+title: Introduction
+type: docs
+---
 
-List of katas, plus ideas for katas
+# List of katas, plus ideas for katas.
+
+{{< columns >}}
 
 **Katas**:
-- [idempotent-consumer](idempotent-consumer.md) - a consumer that filters out duplicate messages
-- [react-function-components](react-function-components.md) - a mini react app created using function components
+- [idempotent-consumer](posts/idempotent-consumer) - a consumer that filters out duplicate messages
+- [react-function-components](posts/react-function-components) - a mini react app created using function components
+
+
+<--->
 
 **Ideas**:
 
-- [react-express-socketio](react-express-socketio.md) - a mini react app created using function components that communicates with nodejs express server using websockets (socker.io)
+- [react-express-socketio](posts/react-express-socketio) - a mini react app created using function components that communicates with nodejs express server using websockets (socker.io)
 
 - []() Create a Twilio Serverless solution to send Sms and process response. Create a question that prompts for an answer.  If the answer is correct, send a `congratulatory` response. If incorrect, send a `commiserations` response.  Include secure HTTP endpoint as advanced 
 
@@ -23,19 +31,14 @@ List of katas, plus ideas for katas
 - []() Create a Kubernetes deployment, with front-end, microservice, caching and NoSql engine.
 
 
+{{< /columns >}}
+
 ## Suggestions
+
+- terraform 
 
 ## TODOs
 
-- Create katas.garrardkitchen.com site when there are more than 10 katas (in kata's section, not just ideas)
-
-
-
-## Hugo Notes
-
-- Must have hugo-extended version installed as this theme (Book) requires SASS support
-
-To install extended version, run:
-```bash
-choco install hugo-extended -confirm
-```
+- Add more katas
+- Add links to own attempt
+- Add kata hints
