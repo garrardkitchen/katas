@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react, sockets, nodejs, expressjs on Katas</title>
+    <link>https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/</link>
+    <description>Recent content in react, sockets, nodejs, expressjs on Katas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 15:08:17 +0100</lastBuildDate>
+    
+	<atom:link href="https://katas.garrardkitchen.com/tags/react-sockets-nodejs-expressjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Express Socketio</title>
+      <link>https://katas.garrardkitchen.com/posts/react-express-socketio/</link>
+      <pubDate>Mon, 27 Apr 2020 15:08:17 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/posts/react-express-socketio/</guid>
+      <description>react-function-components Requirements:
+ ?  Tech:
+ nodejs npm npx react (create-react-app) socket.io (socker-io) socket.io-client (https://www.npmjs.com/package/socket.io-client)  </description>
+    </item>
+    
+  </channel>
+</rss>
