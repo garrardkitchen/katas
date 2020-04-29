@@ -33,14 +33,10 @@ type: docs
 
 - [net-core-web-app-docker](posts/net-core-web-app-docker) Create a Redis Caching layer for [net-core-web-app](posts/net-core-web-app).NET Core random name web application.  Have a TTL of 10 seconds.  Host in Docker container.  Create an Kubernetes deployment manifest. Refs: [deployment example](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
+- []() Create an nodejs app with (1) unit tests using TDD approach with Jest and (2) load test using artillery. Host in Kubernetes via deployment manifest. 2 tiers: Web and Db.
+
 {{< /columns >}}
 
 ## Suggestions
 
 - terraform 
-
-## TODOs
-
-- Add more katas
-- Add links to own attempt
-- Add kata hints
