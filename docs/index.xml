@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Lerna</title>
+      <link>https://katas.garrardkitchen.com/posts/lerna/</link>
+      <pubDate>Mon, 04 May 2020 14:33:12 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/posts/lerna/</guid>
+      <description>Monorepo (all projects are stored in a single repository) is a relatively new concept (to me) and so I&amp;rsquo;ve provided more than usual hits/sample code in the kata. This is primarily to help me cement the core commands.
+The BACKGROUND to why I&amp;rsquo;ve created this is kata is this. I&amp;rsquo;ve recently needed to create several RabbitMQ consumers through a devised pattern, including additional common functionality. As there is common code, I did not want to violate the DRY principle so set about researching a way to do this, easily, with a nodejs repo.</description>
+    </item>
+    
+    <item>
       <title>.NET Core Web App</title>
       <link>https://katas.garrardkitchen.com/posts/net-core-web-app/</link>
       <pubDate>Mon, 27 Apr 2020 16:30:23 +0100</pubDate>

@@ -12,6 +12,7 @@ type: docs
 - [idempotent-consumer](posts/idempotent-consumer) - a consumer that filters out duplicate messages
 - [react-function-components](posts/react-function-components) - a mini react app created using function components
 - [react-express-socketio](posts/react-express-socketio) - a mini react app created using function components that communicates with nodejs express server using websockets (socker.io)
+- [lerna](posts/lerna) - configure a monorepo using lerna
 
 <--->
 
