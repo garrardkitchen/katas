@@ -6,7 +6,7 @@ tags: ["nodejs", "lerna", "monorepo", "docker", "expressjs"]
 
 _**Monorepo** (all projects are stored in a single repository) is a relatively new concept (to me) and so I've provided more than usual hits/sample code in the kata. This is primarily to help me cement the core commands._
 
-_The BACKGROUND to why I've created this is kata is this.  I've recently needed to create several RabbitMQ consumers through a devised pattern, including additional common functionality.  As there is common code, I did not want to violate the DRY principle so set about researching a way to do this, easily, with a `nodejs` repo. As these consumers, plus additional functionality, are small, I felt it UNNCESSARY to create a layer of complexity that would have come about if I were to have gone down the multiple repository route as well as having a private npm registry for the common code. THANKFULLY I found `Lerna` and `Lerna` fits my requirements perfectly._
+_The BACKGROUND to why I've created this is kata is this.  I've recently needed to create several RabbitMQ consumers through a devised pattern, including additional common functionality.  As there is common code, I did not want to violate the DRY principle so set about researching a way to do this, easily, with a `nodejs` repo. As these consumers, plus additional functionality, are small, I felt it UNNECESSARY to create a layer of complexity that would have come about if I were to have gone down the multiple repository route as well as having a private npm registry for the common code. THANKFULLY I found `Lerna` and `Lerna` fits my requirements perfectly._
 
 ## Requirements
 
