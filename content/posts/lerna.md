@@ -163,11 +163,11 @@ $ lerna create @kata/common -y
 
 ### Hint 2 - bootstrap & run
 
-To bootstrap all packages OR start, add this to \<root>/package.js:
+To bootstrap all packages AND just have one shared `node_modules` folder, OR to start all projects (not scoped to a specific package), add this to \<root>/package.js:
 
 ```json
 "scripts": {
-    "bootstrap": "lerna clean && lerna bootstrap",
+    "bootstrap": "lerna clean && lerna bootstrap --hoist",
     "start": "lerna run start --stream"
 }
 ```
