@@ -99,7 +99,7 @@ class Sut {
     }
 }
 
-test("check if task is invalid", () => {
+test("given getMessage is called, when 'Garrard' is passed, then 'Hello Garrard' is returned", () => {
     // arrange
     const sut = new Sut()
 
