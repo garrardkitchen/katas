@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Katas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2020 14:33:12 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 17:27:26 +0100</lastBuildDate>
     
 	<atom:link href="https://katas.garrardkitchen.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Typescript and Jest</title>
+      <link>https://katas.garrardkitchen.com/posts/ts-jest/</link>
+      <pubDate>Fri, 15 May 2020 17:27:26 +0100</pubDate>
+      
+      <guid>https://katas.garrardkitchen.com/posts/ts-jest/</guid>
+      <description>A short kata to configure a nodejs project, using TypeScript instead of javascript, and to create a unit test using the Jest testing framework.
+Requirements  Create a new nodejs project and install dependencies:  $ npm init -y $ npm i -D typescript nodemon \  jest \  babel-jest \  @types/jest \  @babel/preset-typescript \  @babel/preset-env \  @babel/core Initialise jest  $ jest --init The following questions will help Jest to create a suitable configuration for your project √ Would you like to use Jest when running &amp;#34;test&amp;#34; script in &amp;#34;package.</description>
+    </item>
     
     <item>
       <title>Lerna</title>
