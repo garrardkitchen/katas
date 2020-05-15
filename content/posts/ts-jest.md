@@ -1,7 +1,7 @@
 ---
 title: "Typescript and Jest"
 date: 2020-05-15T17:27:26+01:00
-tags: ["nodejs", "jest", "typescript", "javascrip", "babel"]
+tags: ["nodejs", "jest", "typescript", "javascript", "babel"]
 ---
 
 A short kata to configure a nodejs project, using TypeScript instead of javascript, and to create a unit test using the Jest testing framework.
