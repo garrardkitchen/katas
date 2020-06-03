@@ -2,6 +2,9 @@
 title: Introduction
 type: docs
 ---
+{{< justified >}}
+BLACK LIVES MATTER
+{{< /justified >}}
 
 # List of katas, ideas and suggestions for katas.
 
